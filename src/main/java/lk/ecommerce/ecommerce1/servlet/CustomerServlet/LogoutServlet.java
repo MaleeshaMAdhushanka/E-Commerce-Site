@@ -1,4 +1,6 @@
 package lk.ecommerce.ecommerce1.servlet.CustomerServlet;
 
-public class LogoutServlet {
+import jakarta.servlet.http.HttpServlet;
+
+public class LogoutServlet extends HttpServlet {
 }

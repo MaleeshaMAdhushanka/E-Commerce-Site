@@ -1,4 +1,6 @@
 package lk.ecommerce.ecommerce1.servlet.CustomerServlet;
 
-public class ProfileManagementServlet {
+import jakarta.servlet.http.HttpServlet;
+
+public class ProfileManagementServlet extends HttpServlet {
 }

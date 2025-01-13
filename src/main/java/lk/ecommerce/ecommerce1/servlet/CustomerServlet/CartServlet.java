@@ -1,4 +1,6 @@
 package lk.ecommerce.ecommerce1.servlet.CustomerServlet;
 
-public class CartServlet {
+import jakarta.servlet.http.HttpServlet;
+
+public class CartServlet extends HttpServlet {
 }

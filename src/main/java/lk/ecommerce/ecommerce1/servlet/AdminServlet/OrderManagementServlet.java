@@ -1,4 +1,6 @@
 package lk.ecommerce.ecommerce1.servlet.AdminServlet;
 
-public class OrderManagementServlet {
+import jakarta.servlet.http.HttpServlet;
+
+public class OrderManagementServlet extends HttpServlet {
 }

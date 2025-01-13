@@ -1,4 +1,4 @@
-package lk.ecommerce.ecommerce1;
+package lk.ecommerce.ecommerce1.servlet.AdminServlet;
 
 import java.io.*;
 
@@ -6,7 +6,7 @@ import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
+public class ProductServlet extends HttpServlet {
     private String message;
 
     public void init() {

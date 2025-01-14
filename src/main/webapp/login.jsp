@@ -15,15 +15,16 @@
 </head>
 <body>
 <div class="container mt-5">
-    <h1 class="text-center">Login</h1>
+    <h1 class="text-center">Sign In</h1>
     <form action="LoginServlet" method="post" class="form-group">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" class="form-control" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required><br>
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" class="form-control" required><br>
-        <button type="submit" class="btn btn-primary">Login</button>
+        <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password" required><br>
+        <button type="submit" class="btn btn-primary w-100">Sign In</button>
     </form>
-    <p class="text-center">Don't have an account? <a href="register.jsp">Register here</a></p>
+    <p class="text-center mt-3"><a href="#">Forgot Password?</a></p>
+    <p class="text-center">Don't have an account? <a href="register.jsp">Sign up</a></p>
 </div>
 
 

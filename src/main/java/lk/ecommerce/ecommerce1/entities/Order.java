@@ -21,6 +21,7 @@ public class Order {
     }
 
     public Order(int id, String orderId, String status, Timestamp date, String paymentType, int userId) {
+        super();
         this.id = id;
         this.orderId = orderId;
         this.status = status;

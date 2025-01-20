@@ -18,6 +18,7 @@ public class OrderedProduct {
     }
 
     public OrderedProduct(String name, int quantity, String image, float price, int orderId) {
+        super();
         this.name = name;
         this.quantity = quantity;
         this.image = image;

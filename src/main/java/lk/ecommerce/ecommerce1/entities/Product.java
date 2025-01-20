@@ -23,6 +23,7 @@ public class Product {
     }
 
     public Product(int productId, String productName, String productDescription, int productDiscount, float productPrice, int productQuantity, String productImages, int categoryId) {
+        super();
         this.productId = productId;
         this.productName = productName;
         this.productDescription = productDescription;
@@ -34,6 +35,7 @@ public class Product {
     }
 
     public Product(String productName, String productDescription, float productPrice, int productDiscount, int productQuantity, String productImages) {
+        super();
         this.productName = productName;
         this.productDescription = productDescription;
         this.productPrice = productPrice;
@@ -43,6 +45,7 @@ public class Product {
     }
 
     public Product(String productName, String productDescription, float productPrice, int productDiscount, int productQuantity, String productImages, int categoryId) {
+        super();
         this.productName = productName;
         this.productDescription = productDescription;
         this.productPrice = productPrice;
@@ -53,6 +56,7 @@ public class Product {
     }
 
     public Product(int productId, String productName, float productPrice, int productDiscount, int productQuantity) {
+        super();
         this.productId = productId;
         this.productName = productName;
         this.productPrice = productPrice;

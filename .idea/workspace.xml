@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a298d99-f364-43d5-8d30-a0b1543bce87" name="Changes" comment="" />
+    <list default="true" id="2a298d99-f364-43d5-8d30-a0b1543bce87" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Components/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/AdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -97,6 +103,7 @@
       <recent name="C:\Ecommerce\E-commerce1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Ecommerce\E-commerce1\src\main\webapp" />
       <recent name="C:\Ecommerce\E-commerce1\src\main\resources\META-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -213,7 +220,7 @@
       <workItem from="1736835918982" duration="10322000" />
       <workItem from="1736875551725" duration="583000" />
       <workItem from="1737339247537" duration="5341000" />
-      <workItem from="1737350638766" duration="2843000" />
+      <workItem from="1737350638766" duration="4289000" />
     </task>
     <servers />
   </component>

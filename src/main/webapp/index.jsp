@@ -9,9 +9,15 @@
 <html>
 <head>
     <title>Home</title>
-    <%@include file=""%>
+    <%@include file="Components/common_css_js.jsp"%>
+    <style type="text/css">
+
+    </style>
 </head>
 <body>
+<%-- nav bar--%>
+<%@include file="Components/navbar.jsp"%>
+
 
 </body>
 </html>

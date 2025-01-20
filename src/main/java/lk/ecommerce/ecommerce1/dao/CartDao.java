@@ -1,12 +1,10 @@
 package lk.ecommerce.ecommerce1.dao;
 
-import com.sun.jdi.request.StepRequest;
 import lk.ecommerce.ecommerce1.entities.Cart;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -47,7 +45,7 @@ public class CartDao {
 
           ResultSet rs =  pstm.executeQuery();
           while (rs.next()){
-              Cart cart = new Cart();
+              Cart cart = new Cart(uid, pid, qty + 1);
               cart.setCartId(rs.getInt("id"));
               cart.setUserId(rs.getInt("uid"));
               cart.setProductId(rs.getInt("pid"));

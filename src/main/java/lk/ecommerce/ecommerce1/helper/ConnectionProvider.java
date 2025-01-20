@@ -10,7 +10,7 @@ public class ConnectionProvider extends HttpServlet {
     private static Connection connection;
 
 
-    private static Connection getConnection(){
+    public static Connection getConnection(){
         try {
             if (connection == null) {
                 Class.forName("com.mysql.cj.jdbc.Driver");

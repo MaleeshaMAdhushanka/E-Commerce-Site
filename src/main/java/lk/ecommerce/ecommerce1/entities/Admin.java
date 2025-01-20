@@ -25,6 +25,15 @@ public class Admin {
         this.password = password;
     }
 
+    public Admin(String name, String email, String phone, String password) {
+        super();
+        this.name = name;
+        this.email = email;
+        this.phone = phone;
+        this.password = password;
+    }
+
+
     public int getId() {
         return id;
     }

@@ -10,7 +10,7 @@ public class AdminDao {
 
     private Connection con;
 
-    private  AdminDao (Connection con){
+    public AdminDao(Connection con){
         super();
         this.con = con;
     }

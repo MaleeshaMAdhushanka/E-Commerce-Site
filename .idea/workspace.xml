@@ -10,8 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a298d99-f364-43d5-8d30-a0b1543bce87" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/helper/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/helper/MailMessenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/AdminDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/CartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/CartDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/CategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/OrderProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/OrderProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/WishlistDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/WishlistDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/OrderedProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/OrderedProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/helper/ConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/helper/ConnectionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AddOperationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AddOperationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AddToCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AddToCartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AdminServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/CartOperationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/CartOperationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/ChanagePasswordServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/ChanagePasswordServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/LogoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/OrderOperationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/OrderOperationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/UpdateOrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/UpdateOrderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/UpdateUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/UpdateUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/WishlistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/WishlistServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +50,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JavaScript File" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,9 +71,6 @@
     &quot;accountId&quot;: &quot;4cdd760d-2b60-48d1-8fa2-e13a1807f79b&quot;
   }
 }</component>
-  <component name="LLMProjectSettings">
-    <option name="turned_on" value="false" />
-  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -96,6 +121,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lk.ecommerce.ecommerce1.helper" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Ecommerce\E-commerce1\src\main\resources" />
       <recent name="C:\Ecommerce\E-commerce1" />
@@ -218,7 +246,7 @@
       <workItem from="1736835918982" duration="10322000" />
       <workItem from="1736875551725" duration="583000" />
       <workItem from="1737339247537" duration="5341000" />
-      <workItem from="1737350638766" duration="6708000" />
+      <workItem from="1737350638766" duration="12599000" />
     </task>
     <servers />
   </component>

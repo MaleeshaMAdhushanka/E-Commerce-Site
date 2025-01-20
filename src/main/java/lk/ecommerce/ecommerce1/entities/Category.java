@@ -6,7 +6,7 @@ public class Category {
     private String categoryName;
     private  String categoryImage;
 
-    private Category(){
+    public Category(){
         super();
     }
 

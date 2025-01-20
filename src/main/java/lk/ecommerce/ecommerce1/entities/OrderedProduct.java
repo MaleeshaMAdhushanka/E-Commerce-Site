@@ -26,6 +26,11 @@ public class OrderedProduct {
         this.orderId = orderId;
     }
 
+    public OrderedProduct(String prodName, int prodQty, float price, String image, int id) {
+
+        super();
+    }
+
     public int getId() {
         return id;
     }

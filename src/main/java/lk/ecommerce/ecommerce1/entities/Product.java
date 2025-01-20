@@ -64,6 +64,9 @@ public class Product {
         this.productQuantity = productQuantity;
     }
 
+    public Product(int pid, String name, String description, float price, int discount, int quantity, String image, int cid) {
+    }
+
     public int getProductId() {
         return productId;
     }
@@ -128,6 +131,13 @@ public class Product {
         this.categoryId = categoryId;
     }
 
+
+    //cal the price of product by appliying discount
+
+    public int getProductPriceAfterDiscount() {
+        int discount = (int) ((this.getProductDiscount() / 100.00) * this.getProductPrice());
+        return (int) (this.getProductPrice() - discount);
+    }
     @Override
     public String toString() {
         return "Product{" +

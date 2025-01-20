@@ -8,7 +8,7 @@ public class Cart {
     private int productId;
     private int quantity;
 
-    public Cart() {
+    public Cart(int uid, int pid, int i) {
         super();
     }
 

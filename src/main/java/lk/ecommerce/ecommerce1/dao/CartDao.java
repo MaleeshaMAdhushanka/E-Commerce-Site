@@ -45,7 +45,7 @@ public class CartDao {
 
           ResultSet rs =  pstm.executeQuery();
           while (rs.next()){
-              Cart cart = new Cart(uid, pid, qty + 1);
+              Cart cart = new Cart();
               cart.setCartId(rs.getInt("id"));
               cart.setUserId(rs.getInt("uid"));
               cart.setProductId(rs.getInt("pid"));

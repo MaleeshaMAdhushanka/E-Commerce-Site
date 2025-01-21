@@ -5,6 +5,21 @@
   Time: 11:57 AM
   To change this template use File | Settings | File Templates.
 --%>
+<%@page import="lk.ecommerce.ecommerce1.entities.Admin" %>
+<%@page import="lk.ecommerce.ecommerce1.dao.CartDao" %>
+<%@page import="lk.ecommerce.ecommerce1.entities.User" %>
+<%@page import="java.util.List" %>
+<%@page import="lk.ecommerce.ecommerce1.entities.Category" %>
+<%@page import="lk.ecommerce.ecommerce1.helper.ConnectionProvider" %>
+<%@page import="lk.ecommerce.ecommerce1.dao.CategoryDao" %>
+
+<%
+    User user = (User) session.getAttribute("activeUser");
+    Admin admin = (Admin)  session.getAttribute("activeAdmin");
+
+    CategoryDao catDao = new CategoryDao(ConnectionProvider.getConnection());
+    List<Category> categoryList = catDao.getAllCategories();
+%>
 <style>
     .navbar {
         font-weight: 500;

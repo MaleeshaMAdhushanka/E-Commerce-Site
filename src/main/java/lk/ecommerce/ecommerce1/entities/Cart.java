@@ -12,6 +12,10 @@ public class Cart {
         super();
     }
 
+    public Cart() {
+
+    }
+
     public int getCartId() {
         return cartId;
     }

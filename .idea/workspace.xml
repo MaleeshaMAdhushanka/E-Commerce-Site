@@ -10,36 +10,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a298d99-f364-43d5-8d30-a0b1543bce87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/helper/Mail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/helper/MailMessenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/adminlogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/change_password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/display_admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/display_category.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/display_orders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/display_products.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/display_users.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/error_exception.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/error_page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/forgot_password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/otp_code.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/personalInfor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/products.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/update_category.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/update_product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/viewProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/wishlist.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/AdminDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/CartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/CartDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/CategoryDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/OrderProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/OrderProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/WishlistDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/WishlistDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/OrderedProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/OrderedProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/entities/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/helper/ConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/helper/ConnectionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AddOperationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AddOperationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AddToCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AddToCartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AdminServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/CartOperationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/CartOperationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/ChanagePasswordServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/ChanagePasswordServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/OrderOperationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/OrderOperationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/UpdateOrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/UpdateOrderServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/UpdateUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/UpdateUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/WishlistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/WishlistServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Components/alert_message.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Components/alert_message.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Components/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Components/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin_dashboard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/checkout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/product_list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/user_management.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +56,8 @@
       <list>
         <option value="Interface" />
         <option value="JavaScript File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -85,6 +90,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -103,7 +111,7 @@
     &quot;Tomcat Server.Tomcat 10.1.33.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/zeej/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Ecommerce/E-commerce1/src/main/webapp/Images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -125,6 +133,7 @@
       <recent name="lk.ecommerce.ecommerce1.helper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Ecommerce\E-commerce1\src\main\webapp\Images" />
       <recent name="C:\Ecommerce\E-commerce1\src\main\resources" />
       <recent name="C:\Ecommerce\E-commerce1" />
     </key>
@@ -138,7 +147,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.33" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/E_commerce1_war_exploded/home.jsp" />
+      <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
         <artifact name="E-commerce1:war exploded">
           <settings>
@@ -246,7 +255,8 @@
       <workItem from="1736835918982" duration="10322000" />
       <workItem from="1736875551725" duration="583000" />
       <workItem from="1737339247537" duration="5341000" />
-      <workItem from="1737350638766" duration="12599000" />
+      <workItem from="1737350638766" duration="15666000" />
+      <workItem from="1737431696902" duration="7466000" />
     </task>
     <servers />
   </component>

@@ -13,6 +13,8 @@
 <%@page import="lk.ecommerce.ecommerce1.helper.ConnectionProvider" %>
 <%@page import="lk.ecommerce.ecommerce1.dao.CategoryDao" %>
 
+<link rel="stylesheet" type="text/css" href="Css/style.css">
+
 <%
     User user = (User) session.getAttribute("activeUser");
     Admin admin = (Admin)  session.getAttribute("activeAdmin");
@@ -20,25 +22,25 @@
     CategoryDao catDao = new CategoryDao(ConnectionProvider.getConnection());
     List<Category> categoryList = catDao.getAllCategories();
 %>
-<style>
-    .navbar {
-        font-weight: 500;
-    }
+<%--<style>--%>
+<%--    .navbar {--%>
+<%--        font-weight: 500;--%>
+<%--    }--%>
 
-    .nav-link {
-        color: rgb(255 255 255/ 100%) !important;
-    }
+<%--    .nav-link {--%>
+<%--        color: rgb(255 255 255/ 100%) !important;--%>
+<%--    }--%>
 
-    .dropdown-menu {
-        background-color: #ffffff !important;
-        border-color: #949494;
-    }
+<%--    .dropdown-menu {--%>
+<%--        background-color: #ffffff !important;--%>
+<%--        border-color: #949494;--%>
+<%--    }--%>
 
-    .dropdown-menu li a:hover {
-        background-color: #808080 !important;
-        color: white;
-    }
-</style>
+<%--    .dropdown-menu li a:hover {--%>
+<%--        background-color: #808080 !important;--%>
+<%--        color: white;--%>
+<%--    }--%>
+<%--</style>--%>
 <nav class="navbar navbar-expand-lg custom-color" data-bs-theme="dark">
 
     <!-- admin nav bar -->
@@ -83,7 +85,7 @@
     <!-- for all -->
     <div class="container">
         <a class="navbar-brand" href="index.jsp"><i
-                class="fa-sharp fa-solid fa-house" style="color: #ffffff;"></i>&ensp;EazyDeals</a>
+                class="fa-sharp fa-solid fa-house" style="color: #ffffff;"></i>&ensp;ZeeMart</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContentUser"
                 aria-controls="navbarSupportedContentUser" aria-expanded="false"

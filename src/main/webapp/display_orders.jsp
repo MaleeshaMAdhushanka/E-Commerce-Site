@@ -81,7 +81,7 @@
                     <td><%=order.getOrderId()%></td>
                     <td><%=orderProduct.getName()%><br>Quantity: <%=orderProduct.getQuantity()%><br>Total
                         Price: &#8377;<%=orderProduct.getPrice() * orderProduct.getQuantity()%></td>
-                    <td><%=userDao.getUserName(order.getUserId())%><br>Mobile No. <%=userDao.getUserPhone(order.getUserId())%><br><%=userDao.getUserAddress(order.getUserId())%></td>
+                    <td><%=userDao.getUserName(order.getUserId())%><br></td>
                     <td><%=order.getDate()%></td>
                     <td><%=order.getPaymentType()%></td>
                     <td><%=order.getStatus()%></td>

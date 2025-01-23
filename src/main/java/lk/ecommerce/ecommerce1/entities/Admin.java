@@ -9,30 +9,25 @@ public class Admin {
 
     private String phone;
 
+    public Admin(String name, String email, String phone, String password) {
+        this.name = name;
+        this.email = email;
+        this.phone = phone;
+        this.password = password;
+    }
+
     private String password;
 
     public Admin() {
-        super();
     }
 
     public Admin(int id, String name, String email, String phone, String password) {
-
-        super();
         this.id = id;
         this.name = name;
         this.email = email;
         this.phone = phone;
         this.password = password;
     }
-
-    public Admin(String name, String email, String phone, String password) {
-        super();
-        this.name = name;
-        this.email = email;
-        this.phone = phone;
-        this.password = password;
-    }
-
 
     public int getId() {
         return id;

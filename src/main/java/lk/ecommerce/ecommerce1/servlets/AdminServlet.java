@@ -15,7 +15,6 @@ import java.io.IOException;
 
 @WebServlet("/AdminServlet")
 public class AdminServlet extends HttpServlet {
-    private static final long serialVersionUID = 1L;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -31,7 +30,8 @@ public class AdminServlet extends HttpServlet {
             String password = req.getParameter("password");
             String phone = req.getParameter("phone");
 
-            Admin admin = new Admin(name, email, password, phone);
+            Admin admin = new Admin(name, email, phone, password);
+
             boolean flag = adminDao.saveAdmin(admin);
 
             if(flag) {

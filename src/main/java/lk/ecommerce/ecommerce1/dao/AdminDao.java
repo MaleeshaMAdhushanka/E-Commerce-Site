@@ -17,7 +17,6 @@ public class AdminDao {
 
     public boolean saveAdmin(Admin admin){
         boolean flag = false;
-
         try {
             String query = "insert into admin(name, email, password, phone) values(?, ?, ?, ?)";
             PreparedStatement psmt = this.con.prepareStatement(query);
@@ -72,8 +71,9 @@ public class AdminDao {
                admin.setId(rs.getInt("id"));
                 admin.setName(rs.getString("name"));
                 admin.setEmail(rs.getString("email"));
+               admin.setPassword(rs.getString("password"));
                 admin.setPhone(rs.getString("phone"));
-                admin.setPassword(rs.getString("password"));
+
 
                 list.add(admin);
 

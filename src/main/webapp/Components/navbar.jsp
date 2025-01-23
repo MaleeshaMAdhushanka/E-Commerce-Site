@@ -48,13 +48,14 @@
     <div class="container">
         <a class="navbar-brand" href="admin.jsp"><i
                 class="fa-sharp fa-solid fa-house" style="color: #ffffff;"></i>&ensp;EazyDeals</a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false"
+                data-bs-target="#navbarSupportedContentAdmin"
+                aria-controls="navbarSupportedContentAdmin" aria-expanded="false"
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContentAdmin">
 
             <div class="container text-end">
                 <ul class="navbar-nav justify-content-end">
@@ -84,12 +85,12 @@
         <a class="navbar-brand" href="index.jsp"><i
                 class="fa-sharp fa-solid fa-house" style="color: #ffffff;"></i>&ensp;EazyDeals</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false"
+                data-bs-target="#navbarSupportedContentUser"
+                aria-controls="navbarSupportedContentUser" aria-expanded="false"
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContentUser">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item"><a class="nav-link" href="products.jsp"
                                         role="button" aria-expanded="false"> Products </a>

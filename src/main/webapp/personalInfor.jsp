@@ -97,44 +97,30 @@
                 <select name="state"
                         id="state-list" class="form-select">
                     <option selected>--Select State--</option>
-                    <option value="Andaman &amp; Nicobar Islands">Andaman
-                        &amp; Nicobar Islands</option>
-                    <option value="Andhra Pradesh">Andhra Pradesh</option>
-                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                    <option value="Assam">Assam</option>
-                    <option value="Bihar">Bihar</option>
-                    <option value="Chandigarh">Chandigarh</option>
-                    <option value="Chhattisgarh">Chhattisgarh</option>
-                    <option value="Dadra &amp; Nagar Haveli &amp; Daman &amp; Diu">Dadra
-                        &amp; Nagar Haveli &amp; Daman &amp; Diu</option>
-                    <option value="Delhi">Delhi</option>
-                    <option value="Goa">Goa</option>
-                    <option value="Gujarat">Gujarat</option>
-                    <option value="Haryana">Haryana</option>
-                    <option value="Himachal Pradesh">Himachal Pradesh</option>
-                    <option value="Jammu &amp; Kashmir">Jammu &amp; Kashmir</option>
-                    <option value="Jharkhand">Jharkhand</option>
-                    <option value="Karnataka">Karnataka</option>
-                    <option value="Kerala">Kerala</option>
-                    <option value="Ladakh">Ladakh</option>
-                    <option value="Lakshadweep">Lakshadweep</option>
-                    <option value="Madhya Pradesh">Madhya Pradesh</option>
-                    <option value="Maharashtra">Maharashtra</option>
-                    <option value="Manipur">Manipur</option>
-                    <option value="Meghalaya">Meghalaya</option>
-                    <option value="Mizoram">Mizoram</option>
-                    <option value="Nagaland">Nagaland</option>
-                    <option value="Odisha">Odisha</option>
-                    <option value="Puducherry">Puducherry</option>
-                    <option value="Punjab">Punjab</option>
-                    <option value="Rajasthan">Rajasthan</option>
-                    <option value="Sikkim">Sikkim</option>
-                    <option value="Tamil Nadu">Tamil Nadu</option>
-                    <option value="Telangana">Telangana</option>
-                    <option value="Tripura">Tripura</option>
-                    <option value="Uttarakhand">Uttarakhand</option>
-                    <option value="Uttar Pradesh">Uttar Pradesh</option>
-                    <option value="West Bengal">West Bengal</option>
+                    <option value="Jaffna &amp; Nicobar Islands">Jaffna</option>
+                    <option value="Kilinochchi">Kilinochchi</option>
+                    <option value="Mannar">Mannar</option>
+                    <option value="Mullaitivu">Mullaitivu</option>
+                    <option value="Vavuniya">Vavuniya</option>
+                    <option value="Puttalam">Puttalam</option>
+                    <option value="Kurunegala">Kurunegala</option>
+                    <option value="Colombo">Colombo</option>
+                    <option value="Kalutara">Kalutara</option>
+                    <option value="Anuradhapura">Anuradhapura</option>
+                    <option value="Polonnaruwa">Polonnaruwa</option>
+                    <option value="Matale">Matale</option>
+                    <option value="Kandy">Kandy</option>
+                    <option value="Nuwara Eliya">Nuwara Eliya</option>
+                    <option value="Kegalle">Kegalle</option>
+                    <option value="Ratnapura">Ratnapura</option>
+                    <option value="Trincomalee">Trincomalee</option>
+                    <option value="Batticaloa">Batticaloa</option>
+                    <option value="Ampara">Ampara</option>
+                    <option value="Badulla">Badulla</option>
+                    <option value="Monaragala">Monaragala</option>
+                    <option value="Hambantota">Hambantota</option>
+                    <option value="Matara">Matara</option>
+                    <option value="Galle">Galle</option>
                 </select>
             </div>
         </div>

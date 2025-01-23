@@ -54,7 +54,7 @@
                             str.append(user.getUserAddress() + ", ");
                             str.append(user.getUserCity() + ", ");
                             str.append(user.getUserCity() + ", ");
-                            str.append(user.getUserPincode());
+                            str.append(user.getUserPinCode());
                             out.println(str);
                         %>
                         <br>

@@ -34,7 +34,7 @@
                     <h3 class="text-center mt-3">Update Password</h3>
                     <%@include file="Components/alert_message.jsp"%>
 
-                    <form action="ChangePasswordServlet" method="post">
+                    <form action="<%=request.getContextPath()%>/ChangePasswordServlet" method="post">
                         <div class="mb-3 mt-3">
                             <label class="form-label">New Password</label> <input
                                 type="password" name="password" id="password"

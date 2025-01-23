@@ -1,6 +1,7 @@
 package lk.ecommerce.ecommerce1.servlets;
 
 import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
 import lk.ecommerce.ecommerce1.dao.CategoryDao;
 import lk.ecommerce.ecommerce1.dao.ProductDao;
@@ -14,6 +15,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
+@WebServlet("/AddOperationServlet")
 public class AddOperationServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

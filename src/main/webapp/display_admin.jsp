@@ -18,7 +18,7 @@
     if (activeAdmin == null) {
         Message message = new Message("You are not logged in! Login first!!", "error", "alert-danger");
         session.setAttribute("message", message);
-        response.sendRedirect("adminlogin.jsp");
+        response.sendRedirect("./adminlogin.jsp");
         return;
     }
     AdminDao adminDao = new AdminDao(ConnectionProvider.getConnection());

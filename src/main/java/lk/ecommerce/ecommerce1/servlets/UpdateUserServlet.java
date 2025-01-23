@@ -1,6 +1,7 @@
 package lk.ecommerce.ecommerce1.servlets;
 
 import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -12,6 +13,7 @@ import lk.ecommerce.ecommerce1.helper.ConnectionProvider;
 
 import java.io.IOException;
 
+@WebServlet("/UpdateUserServlet")
 public class UpdateUserServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 

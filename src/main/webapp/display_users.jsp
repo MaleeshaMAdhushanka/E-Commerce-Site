@@ -37,10 +37,6 @@
             <th>User Name</th>
             <th>Email</th>
             <th>Phone No.</th>
-            <th>Gender</th>
-            <th>Address</th>
-            <th>Register Date</th>
-            <th>Action</th>
         </tr>
         <%
             UserDao userDao = new UserDao(ConnectionProvider.getConnection());
@@ -50,10 +46,6 @@
         <tr>
             <td><%=u.getUserName()%></td>
             <td><%=u.getUserEmail()%></td>
-            <td><%=u.getUserPhone()%></td>
-            <td><%=u.getUserGender()%></td>
-            <td><%=userDao.getUserAddress(u.getUserId())%></td>
-            <td><%=u.getDateTime()%></td>
             <td><a href="UpdateUserServlet?operation=deleteUser&uid=<%=u.getUserId()%>" role="button" class="btn btn-danger">Remove</a></td>
         </tr>
         <%

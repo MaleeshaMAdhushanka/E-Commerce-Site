@@ -40,6 +40,7 @@ public class OrderOperationServlet extends HttpServlet {
                 OrderDao orderDao = new OrderDao(ConnectionProvider.getConnection());
                 int id = orderDao.insertOrder(order);
 
+
                 CartDao cartDao = new CartDao(ConnectionProvider.getConnection());
                 List<Cart> listOfCart = cartDao.getCartListByUserId(user.getUserId());
                 OrderProductDao orderedProductDao = new OrderProductDao(ConnectionProvider.getConnection());

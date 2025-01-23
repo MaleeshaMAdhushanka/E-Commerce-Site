@@ -47,85 +47,11 @@
                                                                                class="form-control" required>
                             </div>
                         </div>
+
+
+
                         <div class="row">
-                            <div class="col-md-6 mt-2">
-                                <label class="form-label">Mobile number</label> <input
-                                    type="number" name="user_mobile_no"
-                                    placeholder="Mobile number" class="form-control">
-                            </div>
-                            <div class="col-md-6 mt-5">
-                                <label class="form-label pe-3">Gender</label> <input
-                                    class="form-check-input" type="radio" name="gender"
-                                    value="Male"> <span class="form-check-label pe-3 ps-1">
-										Male </span> <input class="form-check-input" type="radio"
-                                                            name="gender" value="Female"> <span
-                                    class="form-check-label ps-1"> Female </span>
-                            </div>
-                        </div>
-                        <div class="mt-2">
-                            <label class="form-label">Address</label> <input type="text"
-                                                                             name="user_address"
-                                                                             placeholder="Enter Address(Area and Street))"
-                                                                             class="form-control" required>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 mt-2">
-                                <label class="form-label">City</label> <input
-                                    class="form-control" type="text" name="city"
-                                    placeholder="City/District/Town" required>
-                            </div>
-                            <div class="col-md-6 mt-2">
-                                <label class="form-label">Pincode</label> <input
-                                    class="form-control" type="number" name="pincode"
-                                    placeholder="Pincode" maxlength="6" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 mt-2">
-                                <label class="form-label">State</label> <select name="state"
-                                                                                class="form-select">
-                                <option selected>--Select State--</option>
-                                <option value="Andaman &amp; Nicobar Islands">Andaman
-                                    &amp; Nicobar Islands</option>
-                                <option value="Andhra Pradesh">Andhra Pradesh</option>
-                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                                <option value="Assam">Assam</option>
-                                <option value="Bihar">Bihar</option>
-                                <option value="Chandigarh">Chandigarh</option>
-                                <option value="Chhattisgarh">Chhattisgarh</option>
-                                <option value="Dadra &amp; Nagar Haveli &amp; Daman &amp; Diu">Dadra
-                                    &amp; Nagar Haveli &amp; Daman &amp; Diu</option>
-                                <option value="Delhi">Delhi</option>
-                                <option value="Goa">Goa</option>
-                                <option value="Gujarat">Gujarat</option>
-                                <option value="Haryana">Haryana</option>
-                                <option value="Himachal Pradesh">Himachal Pradesh</option>
-                                <option value="Jammu &amp; Kashmir">Jammu &amp;
-                                    Kashmir</option>
-                                <option value="Jharkhand">Jharkhand</option>
-                                <option value="Karnataka">Karnataka</option>
-                                <option value="Kerala">Kerala</option>
-                                <option value="Ladakh">Ladakh</option>
-                                <option value="Lakshadweep">Lakshadweep</option>
-                                <option value="Madhya Pradesh">Madhya Pradesh</option>
-                                <option value="Maharashtra">Maharashtra</option>
-                                <option value="Manipur">Manipur</option>
-                                <option value="Meghalaya">Meghalaya</option>
-                                <option value="Mizoram">Mizoram</option>
-                                <option value="Nagaland">Nagaland</option>
-                                <option value="Odisha">Odisha</option>
-                                <option value="Puducherry">Puducherry</option>
-                                <option value="Punjab">Punjab</option>
-                                <option value="Rajasthan">Rajasthan</option>
-                                <option value="Sikkim">Sikkim</option>
-                                <option value="Tamil Nadu">Tamil Nadu</option>
-                                <option value="Telangana">Telangana</option>
-                                <option value="Tripura">Tripura</option>
-                                <option value="Uttarakhand">Uttarakhand</option>
-                                <option value="Uttar Pradesh">Uttar Pradesh</option>
-                                <option value="West Bengal">West Bengal</option>
-                            </select>
-                            </div>
+
                             <div class="col-md-6 mt-2">
                                 <label class="form-label">Password</label> <input
                                     type="password" name="user_password"

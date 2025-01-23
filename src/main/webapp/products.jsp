@@ -83,7 +83,7 @@
         }
     </style>
 </head>
- comm<body style="background-color: #f0f0f0;">
+<body style="background-color: #f0f0f0;">
 <!--navbar -->
 <%@include file="Components/navbar.jsp"%>
 

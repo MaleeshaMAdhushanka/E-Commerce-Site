@@ -26,25 +26,21 @@ public class UpdateUserServlet extends HttpServlet {
 
         if (op.trim().equals("changeAddress")) {
             try {
-                String userAddress = req.getParameter("user_address");
-                String userCity = req.getParameter("city");
-                String userPincode = req.getParameter("pincode");
-                String userState = req.getParameter("state");
 
                 User user = new User();
                 user.setUserId(oldUser.getUserId());
                 user.setUserName(oldUser.getUserName());
                 user.setUserEmail(oldUser.getUserEmail());
                 user.setUserPassword(oldUser.getUserPassword());
-                user.setUserPhone(oldUser.getUserPhone());
-                user.setUserGender(oldUser.getUserGender());
-                user.setDateTime(oldUser.getDateTime());
-                user.setUserAddress(userAddress);
-                user.setUserCity(userCity);
-                user.setUserPinCode(userPincode);
-                user.setUserState(userState);
+//                user.setUserPhone(oldUser.getUserPhone());
+//                user.setUserGender(oldUser.getUserGender());
+//                user.setDateTime(oldUser.getDateTime());
+//                user.setUserAddress(userAddress);
+//                user.setUserCity(userCity);
+//                user.setUserPinCode(userPincode);
+//                user.setUserState(userState);
 
-                userDao.updateUserAddresss(user);
+//                userDao.updateUserAddresss(user);
                 session.setAttribute("activeUser", user);
                 resp.sendRedirect("checkout.jsp");
 
@@ -55,18 +51,19 @@ public class UpdateUserServlet extends HttpServlet {
             try {
                 String userName = req.getParameter("name");
                 String userEmail = req.getParameter("email");
-                String userPhone = req.getParameter("mobile_no");
-                String userGender = req.getParameter("gender");
-                String userAddress = req.getParameter("address");
-                String userCity = req.getParameter("city");
-                String userPincode = req.getParameter("pincode");
-                String userState = req.getParameter("state");
+//                String userPhone = req.getParameter("mobile_no");
+//                String userGender = req.getParameter("gender");
+//                String userAddress = req.getParameter("address");
+//                String userCity = req.getParameter("city");
+//                String userPincode = req.getParameter("pincode");
+//                String userState = req.getParameter("state");
 
-                User user = new User(userName, userEmail, userPhone, userGender, userAddress, userCity, userPincode,
-                        userState);
+                User user = new User();
+                user.setUserName(userName);
+                user.setUserEmail(userEmail);
                 user.setUserId(oldUser.getUserId());
                 user.setUserPassword(oldUser.getUserPassword());
-                user.setDateTime(oldUser.getDateTime());
+//                user.setDateTime(oldUser.getDateTime());
 
                 userDao.updateUser(user);
                 session.setAttribute("activeUser", user);

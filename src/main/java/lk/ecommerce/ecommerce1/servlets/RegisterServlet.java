@@ -24,14 +24,8 @@ public class RegisterServlet extends HttpServlet {
             String userName = req.getParameter("user_name");
             String userEmail = req.getParameter("user_email");
             String userPassword = req.getParameter("user_password");
-            String userPhone = req.getParameter("user_mobile_no");
-            String userGender = req.getParameter("gender");
-            String userAddress = req.getParameter("user_address");
-            String userCity = req.getParameter("city");
-            String userPincode = req.getParameter("pincode");
-            String userState = req.getParameter("state");
 
-            User user = new User(userName, userEmail, userPassword, userPhone, userGender, userAddress, userCity, userPincode, userState);
+            User user = new User(userName, userEmail, userPassword);
             UserDao userDao = new UserDao(ConnectionProvider.getConnection());
             boolean flag = userDao.saveUser(user);
 
@@ -45,8 +39,6 @@ public class RegisterServlet extends HttpServlet {
             }
             session.setAttribute("message", message);
             resp.sendRedirect("register.jsp");
-            return;
-
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -55,7 +55,7 @@
                         </div>
                         <div class="mb-3">
                             <label class="form-label"><b>Uploaded Image:&nbsp;</b></label><%=category.getCategoryImage()%>&emsp;<img
-                                src="Product_imgs\<%=category.getCategoryImage()%>"
+                                src="Images/<%=category.getCategoryImage()%>"
                                 style="width: 80px; height: 80px; width: auto;">
                             <input type="hidden" name="image" value="<%=category.getCategoryImage()%>">
                         </div>

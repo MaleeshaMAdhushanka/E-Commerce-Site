@@ -88,10 +88,10 @@
             Product prod = productDao.getProductsByProductId(c.getProductId());
         %>
         <tr class="text-center">
-          <td><img src="Product_imgs\<%=prod.getProductImages()%>"
+          <td><img src="Images/<%=prod.getProductImages()%>"
                    style="width: 50px; height: 50px; width: auto;"></td>
           <td class="text-start"><%=prod.getProductName()%></td>
-          <td>&#8377;<%=prod.getProductPriceAfterDiscount()%></td>
+          <td>&#36;<%=prod.getProductPriceAfterDiscount()%></td>
           <td><a
                   href="CartOperationServlet?cid=<%=c.getCartId()%>&opt=1"
                   role="button" class="btn btn-light"
@@ -112,7 +112,7 @@
             <%} %>
           </td>
 
-          <td>&#8377;<%=c.getQuantity() * prod.getProductPriceAfterDiscount()%></td>
+          <td>&#36;<%=c.getQuantity() * prod.getProductPriceAfterDiscount()%></td>
           <td><a
                   href="CartOperationServlet?cid=<%=c.getCartId()%>&opt=3"
                   class="btn btn-secondary" role="button">Remove</a></td>
@@ -123,7 +123,7 @@
         %>
         <tr>
           <td class="text-end" colspan="8"><h4 class='pe-5'>
-            Total Amount : &#8377;
+            Total Amount : &#36;
             <%=totalPrice%></h4></td>
         </tr>
         </tbody>

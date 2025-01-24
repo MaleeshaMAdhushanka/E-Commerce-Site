@@ -75,12 +75,12 @@
             <form action="UpdateOrderServlet?oid=<%=order.getId()%>"
                   method="post">
                 <tr>
-                    <td class="text-center"><img
-                            src="Product_imgs\<%=orderProduct.getImage()%>"
-                            style="width: 50px; height: 50px; width: auto;"></td>
+<%--                    <td class="text-center"><img--%>
+<%--                            src="Product_imgs\<%=orderProduct.getImage()%>"--%>
+<%--                            style="width: 50px; height: 50px; width: auto;"></td>--%>
                     <td><%=order.getOrderId()%></td>
                     <td><%=orderProduct.getName()%><br>Quantity: <%=orderProduct.getQuantity()%><br>Total
-                        Price: &#8377;<%=orderProduct.getPrice() * orderProduct.getQuantity()%></td>
+                        Price: &#36;<%=orderProduct.getPrice() * orderProduct.getQuantity()%></td>
                     <td><%=userDao.getUserName(order.getUserId())%><br></td>
                     <td><%=order.getDate()%></td>
                     <td><%=order.getPaymentType()%></td>

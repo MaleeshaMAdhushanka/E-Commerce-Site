@@ -54,11 +54,11 @@
                 String category = catDao.getCategoryName(prod.getCategoryId());
         %>
         <tr class="text-center">
-            <td><img src="Product_imgs\<%=prod.getProductImages()%>"
+            <td><img src="Images/<%=prod.getProductImages()%>"
                      style="width: 60px; height: 60px; width: auto;"></td>
             <td class="text-start"><%=prod.getProductName()%></td>
             <td><%=category%></td>
-            <td>&#8377;<%=prod.getProductPriceAfterDiscount()%></td>
+            <td>&#36;<%=prod.getProductPriceAfterDiscount()%></td>
             <td><%=prod.getProductQuantity()%></td>
             <td><%=prod.getProductDiscount()%>%</td>
             <td><a href="update_product.jsp?pid=<%=prod.getProductId()%>" role="button" class="btn btn-secondary">Update</a>&emsp;<a

@@ -11,10 +11,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2a298d99-f364-43d5-8d30-a0b1543bce87" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/CartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/CartDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AddToCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AddToCartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/viewProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/viewProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/wishlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/wishlist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/display_category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/display_category.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/display_orders.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/display_orders.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/display_products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/display_products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/update_category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/update_category.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/update_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/update_product.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +239,7 @@
       <workItem from="1737605023811" duration="3116000" />
       <workItem from="1737608179331" duration="1421000" />
       <workItem from="1737614420163" duration="19423000" />
-      <workItem from="1737692214687" duration="24202000" />
+      <workItem from="1737692214687" duration="25711000" />
     </task>
     <servers />
   </component>

@@ -48,7 +48,6 @@
             <tr class="text-center table-secondary">
                 <th>Product</th>
                 <th>Order ID</th>
-                <th>Name</th>
                 <th>Quantity</th>
                 <th>Total Price</th>
                 <th>Date and Time</th>
@@ -61,10 +60,9 @@
                     for (OrderedProduct orderProduct : ordProdList) {
             %>
             <tr class="text-center">
-                <td><img src="Product_imgs\<%=orderProduct.getImage()%>"
-                         style="width: 40px; height: 40px; width: auto;"></td>
-                <td class="text-start"><%=order.getOrderId()%></td>
                 <td class="text-start"><%=orderProduct.getName()%></td>
+                <td class="text-start"><%=order.getOrderId()%></td>
+
                 <td><%=orderProduct.getQuantity()%></td>
                 <td><%=orderProduct.getPrice() * orderProduct.getQuantity()%></td>
                 <td><%=order.getDate()%></td>

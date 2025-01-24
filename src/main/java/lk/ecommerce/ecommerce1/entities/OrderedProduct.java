@@ -8,7 +8,6 @@ public class OrderedProduct {
     private int quantity;
 
     private float price;
-    private String image;
 
     private int orderId;
 
@@ -17,19 +16,14 @@ public class OrderedProduct {
         super();
     }
 
-    public OrderedProduct(String name, int quantity, String image, float price, int orderId) {
+    public OrderedProduct(String name, int quantity, float price, int orderId) {
         super();
         this.name = name;
         this.quantity = quantity;
-        this.image = image;
         this.price = price;
         this.orderId = orderId;
     }
 
-    public OrderedProduct(String prodName, int prodQty, float price, String image, int id) {
-
-        super();
-    }
 
     public int getId() {
         return id;
@@ -63,13 +57,7 @@ public class OrderedProduct {
         this.price = price;
     }
 
-    public String getImage() {
-        return image;
-    }
 
-    public void setImage(String image) {
-        this.image = image;
-    }
 
     public int getOrderId() {
         return orderId;

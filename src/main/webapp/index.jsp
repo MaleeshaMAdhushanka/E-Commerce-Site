@@ -163,7 +163,7 @@
                style="text-decoration: none;">
                 <div class="card h-100">
                     <div class="container text-center">
-                        <img src="Product_imgs\<%=topDeals.get(i).getProductImages()%>"
+                        <img src="Images/<%=topDeals.get(i).getProductImages()%>"
                              class="card-img-top m-2"
                              style="max-width: 100%; max-height: 200px; width: auto;">
                     </div>

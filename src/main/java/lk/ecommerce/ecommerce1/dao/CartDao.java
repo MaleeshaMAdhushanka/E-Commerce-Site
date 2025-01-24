@@ -21,7 +21,7 @@ public class CartDao {
         try {
         String query = "insert into cart(uid, pid, quantity) values (?,?,?)";
         PreparedStatement pstm  = this.con.prepareStatement(query);
-        pstm.setInt(1, cart.getCartId());
+        pstm.setInt(1, cart.getUserId());
         pstm.setInt(2, cart.getProductId());
         pstm.setInt(3, cart.getQuantity());
 

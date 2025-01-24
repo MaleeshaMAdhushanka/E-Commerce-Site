@@ -51,9 +51,9 @@ public class OrderOperationServlet extends HttpServlet {
                     String prodName = prod.getProductName();
                     int prodQty = item.getQuantity();
                     float price = prod.getProductPriceAfterDiscount();
-                    String image = prod.getProductImages();
+//                    String image = prod.getProductImages();
 
-                    OrderedProduct orderedProduct = new OrderedProduct(prodName, prodQty, price, image, id);
+                    OrderedProduct orderedProduct = new OrderedProduct(prodName, prodQty, price, id);
                     orderedProductDao.insertOrderedProduct(orderedProduct);
                 }
                 session.removeAttribute("from");
@@ -82,7 +82,7 @@ public class OrderOperationServlet extends HttpServlet {
                 float price = prod.getProductPriceAfterDiscount();
                 String image = prod.getProductImages();
 
-                OrderedProduct orderedProduct = new OrderedProduct(prodName, prodQty, price, image, id);
+                OrderedProduct orderedProduct = new OrderedProduct(prodName, prodQty, price, id);
                 orderedProductDao.insertOrderedProduct(orderedProduct);
 
                 //updating(decreasing) quantity of product in database

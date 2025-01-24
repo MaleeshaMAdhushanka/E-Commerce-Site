@@ -30,13 +30,13 @@ public class AddToCartServlet extends HttpServlet {
         Message message = null;
 
         if (qty == 0) {
-            Cart cart = new Cart(uid, pid, qty + 1);
+            Cart cart = new Cart(uid, pid, 1);
             cartDao.addToCart(cart);
             message = new Message("Product is added to cart successfully!", "success", "alert-success");
 
         }else {
             int cid = cartDao.getIdByUserIdAndProductId(uid, pid);
-            cartDao.updateQuantity(cid, qty+1);
+            cartDao.updateQuantity(cid, qty + 1);
             message = new Message("Product quantity is increased!", "success", "alert-success");
         }
         //updating quantity of product in database

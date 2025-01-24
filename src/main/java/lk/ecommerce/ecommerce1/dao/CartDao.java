@@ -25,7 +25,9 @@ public class CartDao {
         pstm.setInt(2, cart.getProductId());
         pstm.setInt(3, cart.getQuantity());
 
-        pstm.executeUpdate();
+            System.out.println("Adding to cart: UID=" + cart.getUserId() + ", PID=" + cart.getProductId() + ", Quantity=" + cart.getQuantity());
+
+            pstm.executeUpdate();
         flag = true;
         } catch (Exception e) {
             e.printStackTrace();

@@ -5,7 +5,7 @@
   Time: 9:09 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <%@page import="lk.ecommerce.ecommerce1.dao.WishlistDao"%>
 <%@page import="lk.ecommerce.ecommerce1.dao.ProductDao"%>
 <%@page import="lk.ecommerce.ecommerce1.entities.Product"%>
@@ -60,15 +60,22 @@
                 <span class="real-price">&#36;<%=product.getProductPriceAfterDiscount()%></span>&ensp;
                 <span class="product-price">&#36;<%=product.getProductPrice()%></span>&ensp;
                 <span class="product-discount"><%=product.getProductDiscount()%>&#37;off</span><br>
-                <span class="fs-5"><b>Status : </b></span> <span id="availability">
-						<%
-                            if (product.getProductQuantity() > 0) {
-                                System.out.println("Available");
-                            } else {
-                               System.out.println("Currently Out of stock");
-                            }
-                        %>
-					</span><br> <span class="fs-5"><b>Category : </b></span> <span><%=catDao.getCategoryName(product.getCategoryId())%></span>
+                <span class="fs-5"><b>Status : </b></span>
+                <span class="availability <%= (product.getProductQuantity() > 0) ? "available" : "unavailable" %>" aria-live="polite">
+               <%= (product.getProductQuantity()  > 0) ? "Available" : "Currently Out of stock" %><br>
+</span>
+
+
+            <%--                <span id="availability">--%>
+<%--						<%--%>
+<%--                            if (product.getProductQuantity() > 0) {--%>
+<%--                                out.write("Available");--%>
+<%--                            } else {--%>
+<%--                                out.write("Currently Out of stock");--%>
+<%--                            }--%>
+<%--                        %>--%>
+<%--                </span><br>--%>
+                <span class="fs-5"><b>Category : </b></span> <span><%=catDao.getCategoryName(product.getCategoryId())%></span>
                 <form method="post">
                     <div class="container-fluid text-center mt-3">
                         <%

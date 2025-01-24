@@ -10,18 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a298d99-f364-43d5-8d30-a0b1543bce87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Lap3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/appliances.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/book1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/clo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/clothes3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/electronics.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/furniture1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Refrigerator.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Rfrige1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Samsung Galaxy M15-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Samsung Galaxy M158.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/TV2webp.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Tv1.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Components/common_css_js.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Components/common_css_js.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/bo/BOFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/bo/SuperBO.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/viewProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/viewProduct.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +244,7 @@
       <workItem from="1737605023811" duration="3116000" />
       <workItem from="1737608179331" duration="1421000" />
       <workItem from="1737614420163" duration="19423000" />
-      <workItem from="1737692214687" duration="3675000" />
+      <workItem from="1737692214687" duration="7660000" />
     </task>
     <servers />
   </component>

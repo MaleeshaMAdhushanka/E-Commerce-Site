@@ -134,8 +134,8 @@
                         <h5 class="card-title text-center"><%=productList.get(i).getProductName()%></h5>
 
                         <div class="container text-center">
-                            <span class="real-price">&#8377;<%=productList.get(i).getProductPriceAfterDiscount()%></span>
-                            &ensp;<span class="product-price">&#8377;<%=productList.get(i).getProductPrice()%>
+                            <span class="real-price">&#36;<%=productList.get(i).getProductPriceAfterDiscount()%></span>
+                            &ensp;<span class="product-price">&#36;<%=productList.get(i).getProductPrice()%>
 								</span>&ensp;<span class="product-discount"><%=productList.get(i).getProductDiscount()%>&#37;
 									off</span>
                         </div>
@@ -171,8 +171,8 @@
                         <h5 class="card-title text-center"><%=topDeals.get(i).getProductName()%></h5>
 
                         <div class="container text-center">
-                            <span class="real-price">&#8377;<%=topDeals.get(i).getProductPriceAfterDiscount()%></span>
-                            &ensp;<span class="product-price">&#8377;<%=topDeals.get(i).getProductPrice()%>
+                            <span class="real-price">&#36;<%=topDeals.get(i).getProductPriceAfterDiscount()%></span>
+                            &ensp;<span class="product-price">&#36;<%=topDeals.get(i).getProductPrice()%>
 								</span>&ensp;<span class="product-discount"><%=topDeals.get(i).getProductDiscount()%>&#37;
 									off</span>
                         </div>

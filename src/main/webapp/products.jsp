@@ -136,9 +136,9 @@
                     <h5 class="card-title text-center"><%=p.getProductName()%></h5>
 
                     <div class="container text-center">
-                        <span class="real-price">&#8377;<%=p.getProductPriceAfterDiscount()%></span>&ensp;
-                        <span class="product-price">&#8377;<%=p.getProductPrice()%></span>&ensp;
-                        <span class="product-discount"><%=p.getProductDiscount()%>&#37;off</span>
+                        <span class="real-price">&#36;<%=p.getProductPriceAfterDiscount()%></span>&ensp;
+                        <span class="product-price">&#36;;<%=p.getProductPrice()%></span>&ensp;
+                        <span class="product-discount"><%=p.getProductDiscount()%>&#36;off</span>
                     </div>
                     <div class="container text-center mb-2 mt-2">
                         <button type="button"

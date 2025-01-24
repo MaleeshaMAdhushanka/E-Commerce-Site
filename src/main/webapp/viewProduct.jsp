@@ -48,17 +48,17 @@
     <div class="row border border-3">
         <div class="col-md-6">
             <div class="container-fluid text-end my-3">
-                <img src="Product_imgs\<%=product.getProductImages()%>"
+                <img src="Images/<%=product.getProductImages()%>"
                      class="card-img-top"
-                     style="max-width: 100%; max-height: 500px; width: auto;">
+                     style="width: 100%; height: 400px; object-fit: contain">
             </div>
         </div>
         <div class="col-md-6">
             <div class="container-fluid my-5">
                 <h4><%=product.getProductName()%></h4>
                 <span class="fs-5"><b>Description</b></span><br> <span><%=product.getProductDescription()%></span><br>
-                <span class="real-price">&#8377;<%=product.getProductPriceAfterDiscount()%></span>&ensp;
-                <span class="product-price">&#8377;<%=product.getProductPrice()%></span>&ensp;
+                <span class="real-price">&#36;<%=product.getProductPriceAfterDiscount()%></span>&ensp;
+                <span class="product-price">&#36;<%=product.getProductPrice()%></span>&ensp;
                 <span class="product-discount"><%=product.getProductDiscount()%>&#37;off</span><br>
                 <span class="fs-5"><b>Status : </b></span> <span id="availability">
 						<%

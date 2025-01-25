@@ -10,13 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a298d99-f364-43d5-8d30-a0b1543bce87" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/display_category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/display_category.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/display_orders.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/display_orders.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/display_products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/display_products.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/update_category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/update_category.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/update_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/update_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/AdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/helper/ConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/helper/ConnectionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/AdminServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/servlets/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,31 +79,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Tomcat Server.Tomcat 10.1.33.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Ecommerce/E-commerce1/src/main/webapp/Images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.33.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Ecommerce/E-commerce1/src/main/webapp/Images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lk.ecommerce.ecommerce1.helper" />
@@ -239,7 +239,8 @@
       <workItem from="1737605023811" duration="3116000" />
       <workItem from="1737608179331" duration="1421000" />
       <workItem from="1737614420163" duration="19423000" />
-      <workItem from="1737692214687" duration="25711000" />
+      <workItem from="1737692214687" duration="26424000" />
+      <workItem from="1737789490668" duration="7805000" />
     </task>
     <servers />
   </component>
@@ -258,11 +259,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/UserDao.java</url>
           <line>36</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/AdminDao.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/OrderProductDao.java</url>

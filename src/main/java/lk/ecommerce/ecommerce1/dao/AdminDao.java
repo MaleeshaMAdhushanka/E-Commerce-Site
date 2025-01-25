@@ -1,19 +1,25 @@
 package lk.ecommerce.ecommerce1.dao;
 
+import jakarta.annotation.Resource;
 import lk.ecommerce.ecommerce1.entities.Admin;
 
+import javax.sql.DataSource;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class AdminDao {
 
+//    @Resource(name = "java:comp/env/jdbc/pool")
+//    private DataSource con;
+
     private Connection con;
 
-    public AdminDao(Connection con){
+    public AdminDao(Connection con) {
         super();
         this.con = con;
     }
+
 
     public boolean saveAdmin(Admin admin){
         boolean flag = false;
@@ -32,6 +38,7 @@ public class AdminDao {
             e.printStackTrace();
        }
         return flag;
+
     }
 
     public Admin getAdminByEmailPassword(String email, String password) {
@@ -57,6 +64,7 @@ public class AdminDao {
             e.printStackTrace();
         }
         return admin;
+
     }
 
     public List<Admin> getAllAdmin(){

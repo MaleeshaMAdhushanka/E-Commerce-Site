@@ -2,12 +2,14 @@ package lk.ecommerce.ecommerce1.helper;
 
 import jakarta.servlet.http.HttpServlet;
 
+import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class ConnectionProvider extends HttpServlet {
     private static final Long serialVersionUID = 1L;
     private static Connection connection;
+    private static DataSource dataSource;
 
 
     public static Connection getConnection(){
@@ -22,4 +24,11 @@ public class ConnectionProvider extends HttpServlet {
         return connection;
     }
 
+    public static DataSource getDataSource() {
+        return dataSource;
+    }
+
+    public static void setDataSource(DataSource dataSource) {
+        ConnectionProvider.dataSource = dataSource;
+    }
 }

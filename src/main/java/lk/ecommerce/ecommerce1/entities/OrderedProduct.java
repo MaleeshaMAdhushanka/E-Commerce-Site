@@ -1,5 +1,7 @@
 package lk.ecommerce.ecommerce1.entities;
 
+import java.util.Arrays;
+
 public class OrderedProduct {
 
     private int id;
@@ -59,11 +61,24 @@ public class OrderedProduct {
 
 
 
+
     public int getOrderId() {
         return orderId;
     }
 
     public void setOrderId(int orderId) {
         this.orderId = orderId;
+    }
+
+
+    @Override
+    public String toString() {
+        return "OrderedProduct{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", quantity=" + quantity +
+                ", price=" + price +
+                ", orderId=" + orderId +
+                '}';
     }
 }

@@ -25,7 +25,7 @@ public class OrderProductDao {
 
     public void insertOrderedProduct(OrderedProduct ordProduct) {
         try {
-            String query = "insert into ordered_product(name, quantity, price, orderid) values(?, ?, ?, ?)";
+            String query = "insert into ordered_product(name, quantity, price, orderid) values(?, ?,  ?, ?)";
             PreparedStatement psmt = this.con.prepareStatement(query);
             psmt.setString(1, ordProduct.getName());
             psmt.setInt(2, ordProduct.getQuantity());

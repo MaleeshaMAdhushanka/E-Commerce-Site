@@ -51,7 +51,6 @@ public class OrderOperationServlet extends HttpServlet {
                     String prodName = prod.getProductName();
                     int prodQty = item.getQuantity();
                     float price = prod.getProductPriceAfterDiscount();
-//                    String image = prod.getProductImages();
 
                     OrderedProduct orderedProduct = new OrderedProduct(prodName, prodQty, price, id);
                     orderedProductDao.insertOrderedProduct(orderedProduct);
@@ -80,7 +79,6 @@ public class OrderOperationServlet extends HttpServlet {
                 String prodName = prod.getProductName();
                 int prodQty = 1;
                 float price = prod.getProductPriceAfterDiscount();
-                String image = prod.getProductImages();
 
                 OrderedProduct orderedProduct = new OrderedProduct(prodName, prodQty, price, id);
                 orderedProductDao.insertOrderedProduct(orderedProduct);

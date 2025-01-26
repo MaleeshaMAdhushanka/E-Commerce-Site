@@ -10,11 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a298d99-f364-43d5-8d30-a0b1543bce87" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56f29aa1-bdab-43ed-88ef-933a68a594e8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/56f29aa1-bdab-43ed-88ef-933a68a594e8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/CartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/CartDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ecommerce/ecommerce1/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Components/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Components/navbar.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +237,7 @@
       <workItem from="1737692214687" duration="26424000" />
       <workItem from="1737789490668" duration="9356000" />
       <workItem from="1737813436308" duration="6613000" />
-      <workItem from="1737874934073" duration="4153000" />
+      <workItem from="1737874934073" duration="5438000" />
     </task>
     <servers />
   </component>

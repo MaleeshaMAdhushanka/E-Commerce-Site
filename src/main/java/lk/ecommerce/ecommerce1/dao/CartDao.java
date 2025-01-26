@@ -18,7 +18,13 @@ public class CartDao {
 
     public boolean addToCart(Cart cart){
         boolean flag = false;
+        //Check if user exists
         try {
+            if (!isUserExists(cart.getUserId())) {
+                System.out.println("User ID does not exist: " + cart.getUserId());
+                return false;
+            }
+
         String query = "insert into cart(uid, pid, quantity) values (?,?,?)";
         PreparedStatement pstm  = this.con.prepareStatement(query);
         pstm.setInt(1, cart.getUserId());
@@ -35,6 +41,10 @@ public class CartDao {
         return flag;
 
 
+    }
+
+    private boolean isUserExists(int userId) {
+        return false;
     }
 
     public List<Cart> getCartListByUserId(int uid){

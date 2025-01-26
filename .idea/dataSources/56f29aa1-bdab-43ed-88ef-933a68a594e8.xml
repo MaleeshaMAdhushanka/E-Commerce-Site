@@ -1136,7 +1136,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="326" parent="312" name="id">
-      <AutoIncrement>10</AutoIncrement>
+      <AutoIncrement>22</AutoIncrement>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
@@ -1153,8 +1153,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>4</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <foreign-key id="330" parent="312" name="cart_ibfk_1">
+    <foreign-key id="330" parent="312" name="fk_cart_user">
       <ColNames>uid</ColNames>
+      <OnDelete>cascade</OnDelete>
       <RefColNames>userid</RefColNames>
       <RefTableName>user</RefTableName>
     </foreign-key>
@@ -1168,7 +1169,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="333" parent="312" name="uid">
+    <index id="333" parent="312" name="fk_cart_user">
       <ColNames>uid</ColNames>
       <Type>btree</Type>
     </index>
@@ -1348,7 +1349,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="372" parent="317" name="userid">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>11</AutoIncrement>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>

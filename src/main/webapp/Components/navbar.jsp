@@ -18,29 +18,11 @@
 <%
     User user = (User) session.getAttribute("activeUser");
     Admin admin = (Admin)  session.getAttribute("activeAdmin");
+    int cartCount = 0;
 
     CategoryDao catDao = new CategoryDao(ConnectionProvider.getConnection());
     List<Category> categoryList = catDao.getAllCategories();
 %>
-<%--<style>--%>
-<%--    .navbar {--%>
-<%--        font-weight: 500;--%>
-<%--    }--%>
-
-<%--    .nav-link {--%>
-<%--        color: rgb(255 255 255/ 100%) !important;--%>
-<%--    }--%>
-
-<%--    .dropdown-menu {--%>
-<%--        background-color: #ffffff !important;--%>
-<%--        border-color: #949494;--%>
-<%--    }--%>
-
-<%--    .dropdown-menu li a:hover {--%>
-<%--        background-color: #808080 !important;--%>
-<%--        color: white;--%>
-<%--    }--%>
-<%--</style>--%>
 <nav class="navbar navbar-expand-lg custom-color" data-bs-theme="dark">
 
     <!-- admin nav bar -->
@@ -124,7 +106,7 @@
             <%
                 if (user != null) {
                     CartDao cartDao = new CartDao(ConnectionProvider.getConnection());
-                    int cartCount = cartDao.getCartCountByUserId(user.getUserId());
+                    cartCount = cartDao.getCartCountByUserId(user.getUserId());
             %>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active pe-3"><a

@@ -226,6 +226,13 @@ public class UserDao {
 //    }
     public void deleteUser(int uid) {
         try {
+
+            // Delete related rows in the wishlist table
+            String deleteWishlistQuery = "DELETE FROM wishlist WHERE iduser = ?";
+            PreparedStatement deleteWishlistStmt = this.con.prepareStatement(deleteWishlistQuery);
+            deleteWishlistStmt.setInt(1, uid);
+            deleteWishlistStmt.executeUpdate();
+
             String query = "delete from user where userid = ?";
             PreparedStatement psmt = this.con.prepareStatement(query);
             psmt.setInt(1, uid);

@@ -65,20 +65,50 @@ This project is a fully functional e-commerce web application developed using **
 
 ## Getting Started
 Include screenshots of the following key features:
+- Home page
+![Home1.png](src/main/webapp/Images/Home1.png)
 
-![Homepage](Images/Home1.png)
+- Home page Latest product and hot deals
+![Latest Product.png](src/main/webapp/Images/Latest%20Product.png)
 
-![Product List](Images/AllProduct.png)
-- Shopping Cart
-- Admin Dashboard
-- Email notifications
+- All Products
+![AllProcuct.png](src/main/webapp/Images/AllProcuct.png)
 
-### Video Demonstration
-Record a screen demo of the application explaining each feature.  
-Upload the video to YouTube and provide the link here: [YouTube Demo Link](#).
+- Create Acount
+![Create Acount.png](src/main/webapp/Images/Create%20Acount.png)
+
+- Code verification
+![ChangePassword.png](src/main/webapp/Images/ChangePassword.png)
+- Signin
+![Signin.png](src/main/webapp/Images/Signin.png)
+
+- Admin dashboard
+![Admin1.png](src/main/webapp/Images/Admin1.png)
+- 
+- Admin dashboard
+![admin 2.png](src/main/webapp/Images/admin%202.png)
+
+- User Dashboard
+![User dashboard.png](src/main/webapp/Images/User%20dashboard.png)
+
+- Product Search
+![User product serch.png](src/main/webapp/Images/User%20product%20serch.png)
+
+- View Product
+![view product.png](src/main/webapp/Images/view%20product.png)
+
+- Checkout
+![placer order 2.png](src/main/webapp/Images/placer%20order%202.png)
+
+- Place Order
+![place order.png](src/main/webapp/Images/place%20order.png)
+
+- Email notifications Place Order
+![orderontheway.png](src/main/webapp/Images/orderontheway.png)
+
 
 ### GitHub Repository
-[GitHub Repository Link](#)
+[https://github.com/MaleeshaMAdhushanka/E-Commerce-Site.git](#)
 
 ## Bonus Features
 - Advanced search with filters (category, keywords).
